@@ -1,4 +1,4 @@
-# Laravel Boolfolio - Project Technology
+# Laravel Boolfolio - API
 
 ## Assignment:
 
