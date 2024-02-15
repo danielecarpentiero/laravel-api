@@ -10,7 +10,7 @@ class ProjectController extends Controller
 {
     public function index(): \Illuminate\Http\JsonResponse
     {
-        $projects = Project::all();
+        $projects = Project::paginate(10);
         return response()->json([
             'success' => 200,
             'results' => $projects
